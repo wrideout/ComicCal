@@ -1,3 +1,6 @@
+// William Rideout
+// Sept. 25, 2015
+
 function parseList(comics)
 {
   // First, pull down the list for the week
