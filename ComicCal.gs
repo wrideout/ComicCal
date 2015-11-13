@@ -12,7 +12,7 @@ function parseList(comics)
   {
     // If there is a non-negative index, that means we have a hit this week for that title.
     // Go ahead and create a new calendar event
-    var index = releases.indexOf(comics[i] + ' #')
+    var index = releases.indexOf('\t' + comics[i] + ' #')
     if(index != -1)
     {
       Logger.log('Found hit ' + comics[i])
